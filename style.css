@@ -174,10 +174,16 @@ img {
 @media only screen and (max-width: 600px) {
   main {
     padding: 2rem;
+    padding-bottom: 10rem;
   }
   
   h1 {
     text-align: center;
+  }
+
+  .apresentação{
+    display: block;
+    align-items: center;
   }
 
   .navbar {
