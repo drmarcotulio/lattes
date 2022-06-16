@@ -61,7 +61,7 @@ body::-webkit-scrollbar-thumb { /* :mudando a cor da barra de rolagem de dentro 
 
 main {
   margin-left: 5rem;
-  padding: 10% 10% 20rem;
+  padding: 2.5% 10% 15% 15%;
 
   color: var(--text-primary);
   background: var(--background-color);
@@ -159,6 +159,15 @@ main {
 
 .navbar:hover .logo svg {
   transform: rotate(-180deg);
+}
+
+.apresentação {
+  display: flex;
+  align-items: center;
+}
+img {
+  border-radius: 100px 50px;
+  padding: 1rem;
 }
 
 /* Small screens */
