@@ -48,7 +48,7 @@ body::-webkit-scrollbar-track { /* :cor de fundo da barra de rolagem */
 }
 
 body::-webkit-scrollbar-thumb { /* :mudando a cor da barra de rolagem de dentro */
-  background: #6649b8;
+  background: #006699;
 }
 
 .navbar::-webkit-scrollbar {
