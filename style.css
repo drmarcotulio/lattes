@@ -173,7 +173,7 @@ img {
 /* Small screens */
 @media only screen and (max-width: 600px) {
   main {
-    padding: 2rem;
+    padding: 1rem;
     padding-bottom: 10rem;
   }
   
