@@ -183,7 +183,18 @@ img {
 
   .apresentação{
     display: block;
+   
     align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  img {
+    height: 45%;
+    padding: 0;
+
+    margin: auto;
+    display: block;
   }
 
   .navbar {
