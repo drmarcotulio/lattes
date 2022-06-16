@@ -11,7 +11,7 @@
 
 .dark {
   --text-primary: #006699;
-  --text-secondary: #000000;
+  --text-secondary: #004263;
   --bg-primary: #ffffff;
   --bg-secondary: #e4e4e4;
   --background-color: #ffffff;
@@ -61,7 +61,7 @@ body::-webkit-scrollbar-thumb { /* :mudando a cor da barra de rolagem de dentro 
 
 main {
   margin-left: 5rem;
-  padding: 10rem 10rem 20rem;
+  padding: 10% 10% 20rem;
 
   color: var(--text-primary);
   background: var(--background-color);
