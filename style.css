@@ -165,10 +165,6 @@ main {
   transform: rotate(-180deg);
 }
 
-img {
-  float: right;
-}
-
 h1 {
   font-size: 3rem;
 }
@@ -183,10 +179,12 @@ h1 {
   h1 {
     font-size: 2rem;
     text-align: center;
+
+    display: none;
   }
 
   .container {
-    display: block;
+    display: flex;
 
     align-items: center;
     justify-content: center;
@@ -194,11 +192,10 @@ h1 {
   }
 
   img {
-    height: 15%;
+    height: 20%;
+    
     padding: 0;
-
-    margin: auto;
-    float: left;
+    margin-left: 25%;
   }
 
   .navbar {
@@ -246,6 +243,10 @@ h1 {
 
   .navbar:hover .logo-text {
     left: 0px;
+  }
+
+  img {
+    float: right;
   }
 }
 
