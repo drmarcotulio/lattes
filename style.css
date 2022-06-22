@@ -1,6 +1,7 @@
 :root {
   font-size: 16px;
-  font-family: "Open Sans";
+  font-weight: 500;
+  font-family: Tahoma;
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
@@ -39,15 +40,18 @@ body {
   padding: 0;
 }
 
-body::-webkit-scrollbar { /* :tamanho da barra de rolagem */
+body::-webkit-scrollbar {
+  /* :tamanho da barra de rolagem */
   width: 0.25rem;
 }
 
-body::-webkit-scrollbar-track { /* :cor de fundo da barra de rolagem */
+body::-webkit-scrollbar-track {
+  /* :cor de fundo da barra de rolagem */
   background: var(--bg-primary);
 }
 
-body::-webkit-scrollbar-thumb { /* :mudando a cor da barra de rolagem de dentro */
+body::-webkit-scrollbar-thumb {
+  /* :mudando a cor da barra de rolagem de dentro */
   background: #006699;
 }
 
@@ -161,40 +165,40 @@ main {
   transform: rotate(-180deg);
 }
 
-.apresentação {
-  display: flex;
-  align-items: center;
-}
 img {
-  border-radius: 100px 50px;
-  padding: 1rem;
+  float: right;
+}
+
+h1 {
+  font-size: 3rem;
 }
 
 /* Small screens */
 @media only screen and (max-width: 600px) {
   main {
-    padding: 1rem;
+    padding: 2rem;
     padding-bottom: 10rem;
   }
-  
+
   h1 {
+    font-size: 2rem;
     text-align: center;
   }
 
-  .apresentação{
+  .container {
     display: block;
-   
+
     align-items: center;
     justify-content: center;
     align-content: center;
   }
 
   img {
-    height: 45%;
+    height: 15%;
     padding: 0;
 
     margin: auto;
-    display: block;
+    float: left;
   }
 
   .navbar {
@@ -212,7 +216,7 @@ img {
   }
 
   .nav-link {
-    justify-content: center; 
+    justify-content: center;
   }
 
   main {
