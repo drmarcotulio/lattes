@@ -2,27 +2,35 @@
   font-size: 16px;
   font-weight: 500;
   font-family: Tahoma;
-  --text-primary: #b6b6b6;
+  --text-primary: #006699;
+  --text-secondary: #38a4da;
+  --bg-primary: #f7fde3;
+  --bg-secondary: #ecf5b8;
+  --background-color: #BFDD99;
+
+  /* --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
+  --background-color: #444444; */
+
   --transition-speed: 600ms;
-  --background-color: #444444;
 }
 
 .dark {
   --text-primary: #006699;
-  --text-secondary: #004263;
-  --bg-primary: #ffffff;
-  --bg-secondary: #e4e4e4;
-  --background-color: #ffffff;
+  --text-secondary: #38a4da;
+  --bg-primary: #f7fde3;
+  --bg-secondary: #ecf5b8;
+  --background-color: #BFDD99;
 }
 
 .light {
-  --text-primary: #b6b6b6;
-  --text-secondary: #ececec;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
+  --text-primary: #006699;
+  --text-secondary: #38a4da;
+  --bg-primary: #f7fde3;
+  --bg-secondary: #ecf5b8;
+  --background-color: #BFDD99;
 }
 
 .solar {
@@ -64,7 +72,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 main {
-  margin-left: 5rem;
+  /* margin-left: 5rem; */
   padding: 2.5% 10% 15% 15%;
 
   color: var(--text-primary);
