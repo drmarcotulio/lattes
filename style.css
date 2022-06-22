@@ -169,6 +169,11 @@ h1 {
   font-size: 3rem;
 }
 
+img {
+  margin: auto;
+  display: block;
+}
+
 /* Small screens */
 @media only screen and (max-width: 600px) {
   main {
@@ -193,9 +198,6 @@ h1 {
 
   img {
     height: 20%;
-    
-    padding: 0;
-    margin-left: 20%;
   }
 
   .navbar {
@@ -243,13 +245,7 @@ h1 {
 
   .navbar:hover .logo-text {
     left: 0px;
-  }
-
-  img {
-    margin-left: 35%;
-
-    /* float: right; */
-  }
+  } 
 }
 
 
