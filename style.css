@@ -2,8 +2,8 @@
   font-size: 16px;
   font-weight: 500;
   font-family: Tahoma;
-  --text-primary: #006699;
-  --text-secondary: #38a4da;
+  --text-primary: #000000;
+  --text-secondary: #000000;
   --bg-primary: #f7fde3;
   --bg-secondary: #ecf5b8;
   --background-color: #BFDD99;
@@ -18,24 +18,24 @@
 }
 
 .dark {
-  --text-primary: #006699;
-  --text-secondary: #38a4da;
+  --text-primary: #000000;
+  --text-secondary: #000000;
   --bg-primary: #f7fde3;
   --bg-secondary: #ecf5b8;
   --background-color: #BFDD99;
 }
 
 .light {
-  --text-primary: #006699;
-  --text-secondary: #38a4da;
+  --text-primary: #000000;
+  --text-secondary: #000000;
   --bg-primary: #f7fde3;
   --bg-secondary: #ecf5b8;
   --background-color: #BFDD99;
 }
 
 .solar {
-  --text-primary: #006699;
-  --text-secondary: #38a4da;
+  --text-primary: #000000;
+  --text-secondary: #000000;
   --bg-primary: #f7fde3;
   --bg-secondary: #ecf5b8;
   --background-color: #BFDD99;
@@ -60,7 +60,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   /* :mudando a cor da barra de rolagem de dentro */
-  background: #006699;
+  background: #000000;
 }
 
 .navbar::-webkit-scrollbar {
@@ -133,11 +133,11 @@ main {
 
 /* Cor do svg */
 .fa-primary {
-  color: #38a4da;
+  color: #000000;
 }
 
 .fa-secondary {
-  color: #006699;
+  color: #000000;
 }
 
 .fa-primary,
